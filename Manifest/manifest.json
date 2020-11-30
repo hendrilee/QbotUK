@@ -2,7 +2,7 @@
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
   "manifestVersion": "1.5",
   "version": "1.0.0",
-  "id": "225741f1-3c92-44bf-994d-c22537df11de",
+  "id": "2c212938-677f-4678-9cd2-55561e276aa9",
   "packageName": "qbot",
   "developer": {
     "name": "Enovade Sdn Bhd",
@@ -25,7 +25,7 @@
   "accentColor": "#6264A7",
   "bots": [
     {
-      "botId": "225741f1-3c92-44bf-994d-c22537df11de",
+      "botId": "2c212938-677f-4678-9cd2-55561e276aa9",
       "scopes": [
         "team"
       ]
@@ -35,7 +35,7 @@
     {
       "entityId": "DashboardTab",
       "name": "Dashboard",
-      "contentUrl": "https://enovadeqbotnew-dashboard.azurewebsites.net/home?upn={loginHint}&tid={tid}&gid={groupId}&uid={userObjectId}",
+      "contentUrl": "https://qbotenovade-dashboard.azurewebsites.net/home?upn={loginHint}&tid={tid}&gid={groupId}&uid={userObjectId}",
       "scopes": [ "personal" ]
     }
   ],
@@ -43,5 +43,5 @@
     "identity",
     "messageTeamMembers"
   ],
-  "validDomains": [ "enovadeqbotnew-dashboard.azurewebsites.net", "enovadeqbotnew.azurewebsites.net" ]
+  "validDomains": [ "qbotenovade-dashboard.azurewebsites.net", "qbotenovade.azurewebsites.net" ]
 }
